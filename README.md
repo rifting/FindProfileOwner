@@ -12,3 +12,7 @@ To compile, first install dependencies:
 Then you can compile
 
 `g++ main.cpp -o main -lext2fs -luuid -lcom_err`
+
+Run with `./main <image>`.
+
+One more thing: if your goal is to delete the profile owner you will need to search for the /system/users/0/ directory instead. I'm not quite sure how to locate this yet.
